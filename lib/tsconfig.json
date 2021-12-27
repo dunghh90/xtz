@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "watch": false,
+    "outDir": "./dist",
+    "lib": ["es2015", "dom"],
+    "types": ["node"]
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

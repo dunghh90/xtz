@@ -1,0 +1,28 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["node_modules", "**/node_modules/**"]
+  },
+  "jsRules": {},
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "semi": true,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "printWidth": 120
+      }
+    ],
+    "no-bitwise": false,
+    "no-console": false,
+    "no-shadowed-variable": true,
+    "ordered-imports": false,
+    "variable-name": false,
+    "no-var-requires": false,
+    "semicolon": [true, "always"],
+    "object-literal-sort-keys": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@xwallet/crypto-currency-xtz",
+  "version": "0.1.16",
+  "description": "Common package to handle Ethereum stuffs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "NETWORK=rinkeby mocha --timeout 15000 -r ts-node/register ./test/testEthGateway.spec.ts",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "author": "an.nguyen@sotatek.com",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/tx": "3.4.0",
+    "@types/lodash": "4.14.175",
+    "@types/lru-cache": "5.1.0",
+    "@types/web3": "1.2.2",
+    "lodash": "4.17.21",
+    "lru-cache": "5.1.1",
+    "p-limit": "2.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sotez": "^10.0.0",
+    "web3": "1.6.1",
+    "worker-common": "file:../worker-common",
+    "xwallet-common": "file:../xwallet-common"
+  },
+  "peerDependencies": {
+    "xwallet-common": "file:../xwallet-common",
+    "worker-common": "file:../worker-common"
+  },
+  "devDependencies": {
+    "@types/node": "16.10.1",
+    "typescript": "4.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/xwallet/xwallet-worker.git"
+  }
+}
