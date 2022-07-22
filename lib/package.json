@@ -12,7 +12,7 @@
   "dependencies": {
     "@ethereumjs/tx": "3.4.0",
     "@types/lodash": "4.14.175",
-    "@types/lru-cache": "5.1.0",
+    "@types/lru-cache": "5.1.1",
     "@types/web3": "1.2.2",
     "lodash": "4.17.21",
     "lru-cache": "5.1.1",
