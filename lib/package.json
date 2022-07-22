@@ -16,7 +16,7 @@
     "@types/web3": "1.2.2",
     "lodash": "4.17.21",
     "lru-cache": "5.1.1",
-    "p-limit": "2.2.0",
+    "p-limit": "2.3.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
     "sotez": "^10.0.0",
