@@ -12,7 +12,7 @@
     "@types/lodash": "4.14.119",
     "express": "4.16.4",
     "morgan": "1.9.1",
-    "lodash": "4.17.11",
+    "lodash": "4.17.17",
     "xwallet-common": "../../libs/xwallet-common",
     "worker-common": "../../libs/worker-common",
     "worker-xtz": "../../libs/worker-xtz",
