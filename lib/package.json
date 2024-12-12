@@ -20,7 +20,7 @@
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
     "sotez": "^10.0.0",
-    "web3": "1.6.1",
+    "web3": "4.0.1",
     "worker-common": "file:../worker-common",
     "xwallet-common": "file:../xwallet-common"
   },
